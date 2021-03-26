@@ -19,7 +19,7 @@ pacman -S seeker
 ### Termux
 
 ```bash
-git clone https://github.com/thewhiteh4t/seeker.git
+git clone https://github.com/memes-bachha/seeker.git
 cd seeker/
 pkg update
 pkg install python php
@@ -74,7 +74,7 @@ $ ./ngrok http 1337
 $ docker network create ngroknet
 
 # Step 2
-$ docker run --rm -it --net ngroknet --name seeker thewhiteh4t/seeker
+$ docker run --rm -it --net ngroknet --name seeker memes-bachha/seeker
 
 # Step 3
 $ docker run --rm -it --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
