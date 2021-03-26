@@ -21,10 +21,11 @@ pacman -S seeker
 ### Termux
 
 ```bash
+pkg update -y
+pkg upgrade -y
+pkg install git curl php python -y
 git clone https://github.com/memes-bachha/seeker.git
-cd seeker/
-pkg update
-pkg install python php
+cd seeker
 pip3 install requests
 python3 seeker.py -t manual
 ```
