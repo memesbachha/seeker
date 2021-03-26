@@ -3,9 +3,11 @@
 ### Kali Linux / Ubuntu / Parrot OS
 
 ```bash
+apt upadte -y
+apt upgrade -y
+apt install git -y
 git clone https://github.com/memes-bachha/seeker.git
-cd seeker/
-apt update
+cd seeker
 apt install python3 python3-pip php
 pip3 install requests
 ```
