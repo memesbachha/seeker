@@ -19,7 +19,7 @@ https://www.instagram.com/memesbachha/?hl=en
 apt upadte -y
 apt upgrade -y
 apt install git -y
-git clone https://github.com/memes-bachha/seeker.git
+git clone https://github.com/memesbachha/seeker.git
 cd seeker
 apt install python3 python3-pip php
 pip3 install requests
@@ -37,7 +37,7 @@ pacman -S seeker
 pkg update -y
 pkg upgrade -y
 pkg install git curl php python -y
-git clone https://github.com/memes-bachha/seeker.git
+git clone https://github.com/memesbachha/seeker.git
 cd seeker
 pip3 install requests
 python3 seeker.py -t manual
@@ -45,7 +45,7 @@ python3 seeker.py -t manual
 ### Docker
 
 ```bash
-docker pull memes-bachha/seeker
+docker pull memesbachha/seeker
 ```
 
 ## Usage
